@@ -1,0 +1,15 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<BorderPane fx:id="root" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuiServer">
+    <padding>
+        <Insets bottom="70.0" left="70.0" right="70.0" top="70.0" />
+    </padding>
+    <center>
+        <HBox spacing="400.0">
+            <Button  mnemonicParsing="false" prefHeight="300.0" prefWidth="300.0" style="-fx-pref-width: 300px;-fx-pref-height: 300px;" text="Server" onAction="#startServer"/>
+            <Button  mnemonicParsing="false" prefHeight="300.0" prefWidth="300.0" style="-fx-pref-width: 300px;-fx-pref-height: 300px;" text="Client" onAction="#startClient"/>
+        </HBox>
+    </center>
+</BorderPane>
